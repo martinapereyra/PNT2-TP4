@@ -175,7 +175,7 @@
 
 
   .jumbotron {
-    background-color: rgb(41, 40, 56);
+    background-color: rgb(61, 38, 56);
     color: white;
   }
 
