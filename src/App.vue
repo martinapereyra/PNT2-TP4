@@ -1,28 +1,32 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div class = "container-fluid mt-3">
+    <div class="jumbotron">
+      <h1>TP4 - Programación nuevas tecnologías</h1>
+      <br>
+      <Navbar/>
+      <br>
+      <router-view></router-view>
+    </div>
+    
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+//import Formulario from './componentes/Formulario/IndexFormulario.vue';
+import Navbar from './componentes/Navbar.vue';
+
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Navbar
+
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+  h1 {
+    color: rgb(85, 30, 57);
+  }
 </style>
